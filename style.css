@@ -99,8 +99,8 @@ body {
     
 }
 .sec1-home-search .icon-sec1 {
-    width: 65px;
-    height: 55px;
+    width: 65px !important;
+    height: 55px !important;
     border-radius: 3px;
 }
 .sec1-home-search-input {
