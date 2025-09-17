@@ -98,9 +98,16 @@ body {
     padding-left: 25px;
     
 }
+
+.icon-sec1 {
+    width: 65px;
+    height: 55px;
+    border-radius: 3px;
+}
 .sec1-home-search-input {
     display: inline;
     position: relative;
+    top: -25px;
 }
 [type="text"]{
     width: 220px;
