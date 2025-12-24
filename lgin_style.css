@@ -1,0 +1,94 @@
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+                url('proj_img/sec8-img.jpg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: "Josefin Sans", sans-serif;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .main-container {
+            display: flex;
+            max-width: 900px;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(15px);
+            border-radius: 20px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+        }
+        .info {
+            flex: 1.5;
+            padding: 50px;
+            color: #fff;
+            text-align: left;
+            border-right: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .title {
+            font-family: "Playfair Display", serif;
+            font-size: 38px;
+            margin-bottom: 20px;
+            color: #f3e5ab;
+            font-style: italic;
+        }
+
+        .parag {
+            font-size: 16px;
+            line-height: 1.7;
+            margin-bottom: 20px;
+            font-weight: 300;
+        }
+        .login-section {
+            flex: 1;
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 50px 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+
+        h2 {
+            font-family: "Playfair Display", serif;
+            color: #806925;
+            margin-bottom: 25px;
+            font-size: 28px;
+        }
+
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 12px 15px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+            outline: none;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 12px;
+            background-color: #5b5853;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: 600;
+            transition: 0.4s;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #806925;
+        }
