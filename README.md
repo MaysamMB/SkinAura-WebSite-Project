@@ -80,4 +80,31 @@ SkinAura is a fully responsive e-commerce website for premium skincare and beaut
 4. Verify services are running (green indicators)
 
 #### Step 3: Deploy the Project
-1. Copy the entire project folder to:
+1. Copy the entire project folder to: C:\xampp\htdocs\SkinAura\
+#### Step 4: Import Database
+1. Open browser and go to: [phpmyadmin](http://localhost/phpmyadmin)
+2. Click "New" to create a database named: `skinaura_db`
+3. Click "Import" tab
+4. Choose file: `proudcts.sql`
+5. Click "Go" to import
+
+#### Step 5: Configure Database Connection
+Edit `conn.php` and update with your credentials:
+```php
+<?php
+$host = "localhost";
+$user = "root";      // Default XAMPP username
+$password = "";      // Default XAMPP password (empty)
+$dbname = "skinaura_db";
+
+$conn = mysqli_connect($host, $user, $password, $dbname);
+?>
+
+```
+ #### Running the Website: 
+ Method 1: Local Server
+Start XAMPP (Apache + MySQL)
+
+Open browser
+
+Navigate to: http://localhost/SkinAura/
