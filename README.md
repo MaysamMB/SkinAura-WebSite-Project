@@ -2,6 +2,11 @@
 
 ![SkinAura Banner](proj_img/site_icon.jpg)
 
+##  Live Demo
+ Visit the website here: 
+ 
+https://maysammb.github.io/SkinAura-WebSite-Project/
+
 ## Overview
 SkinAura is a fully responsive e-commerce website for premium skincare and beauty products. It features a modern design with both frontend and backend functionality, including user authentication, product management, and shopping cart system.
 
